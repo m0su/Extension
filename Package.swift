@@ -11,9 +11,18 @@ let package = Package(
             name: "Extension",
             targets: ["Extension"]),
     ],
+  
+    // 21.09.23 release 기준
     dependencies: [
-        // Dependencies declare other packages that this package depends on.
-        // .package(url: /* package url */, from: "1.0.0"),
+      .package(url:"https://github.com/devxoul/Then", from: "2.7.0"),
+      .package(url: "https://github.com/ReactiveX/RxSwift", from: "6.2.0"),
+      .package(url: "https://github.com/Alamofire/Alamofire", from: "5.4.4"),
+      .package(url: "https://github.com/Moya/Moya", from: "15.0.0"),
+      .package(url: "https://github.com/devxoul/MoyaSugar", from: "1.3.3"),
+      .package(url: "https://github.com/SnapKit/SnapKit", from: "5.0.1"),
+      .package(url: "https://github.com/ReactorKit/ReactorKit", from: "3.0.0"),
+      .package(url: "https://github.com/kishikawakatsumi/KeychainAccess", from: "4.2.2"),
+      
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
