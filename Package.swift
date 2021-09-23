@@ -22,6 +22,7 @@ let package = Package(
       .package(url: "https://github.com/SnapKit/SnapKit", from: "5.0.1"),
       .package(url: "https://github.com/ReactorKit/ReactorKit", from: "3.0.0"),
       .package(url: "https://github.com/kishikawakatsumi/KeychainAccess", from: "4.2.2"),
+      .package(url: "https://github.com/SwiftyBeaver/SwiftyBeaver", from: "1.9.5"),
       
     ],
     targets: [
