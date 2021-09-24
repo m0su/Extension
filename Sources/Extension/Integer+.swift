@@ -5,6 +5,8 @@
 //  Created by seo on 2021/09/24.
 //
 
+import CoreGraphics
+
 public extension IntegerLiteralType {
   var f: CGFloat {
     return CGFloat(self)
